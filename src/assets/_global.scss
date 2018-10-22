@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+/* core settings */
+* {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	background-color: $bgColor;
+	color: $textColor;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 100%;
+	font-size: 1.2em;
+	line-height: 1.5;
+	border: 0;
+	outline: 0;
+	/* Optional */
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* core (optional) */
+*:focus {
+	outline: none;
+}
+
+button {
+	border: none;
+}
+
+/* Button Style */
+.btn {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	padding: .5em;
+	text-align: center;
+	border-radius: 100px;
+	transition: .2s;
+	cursor: pointer;
+}
+
+/* Input Style */
+input[type=text] {
+	display: block;
+	width: 100%;
+	padding: .5em 1em;
+	border: none;
+	border-radius: 4px;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
