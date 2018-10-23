@@ -8,7 +8,8 @@ import RecipeLists from './components/RecipeLists'
 //style
 import './assets/main.scss';
 
-const API_KEY = '9624e75e99dd5329ddf4b078a64fe8ca';
+//API_Key
+const API_KEY = process.env.REACT_APP_RECIPE_API_KEY;
 
 class App extends Component {
 

@@ -21,7 +21,12 @@ const RecipeLists = ({ recipes }) =>
 				</div>
 			</div>
 			<button className="btn">
-				<Link to={{ pathname: `/recipe/${recipe.recipe_id}` }}>
+				<Link
+					to={{
+						pathname: `/recipe/${recipe.recipe_id}`,
+						state: { recipe: recipe.title }
+					}}
+				>
 					View Recipe
 				</Link>
 			</button>

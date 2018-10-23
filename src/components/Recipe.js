@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Recipe = () => (
-	<div>
-		<h1>Recipe Component</h1>
-	</div>
-);
-export default Recipe;
+export default class Recipe extends Component {
+	state = {
+		activeRecipe: []
+	};
+
+	componentDidMount() {}
+
+	render() {
+		console.log(this.props);
+		return (
+			<div>
+				<h1>Recipe Component!</h1>
+			</div>
+		);
+	}
+}
