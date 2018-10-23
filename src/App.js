@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 //components
 import SearchForm from './components/SearchForm'
 import Header from './components/Header'
-import Recipe from './components/Recipe'
+import RecipeLists from './components/RecipeLists'
 
 //style
 import './assets/main.scss';
@@ -37,7 +37,7 @@ class App extends Component {
         <div className="container">
           <SearchForm getRecipe={this.getRecipe} />
           <div className="grid">
-            <Recipe recipes={this.state.recipes} />
+            <RecipeLists recipes={this.state.recipes} />
           </div>
         </div>
       </>
