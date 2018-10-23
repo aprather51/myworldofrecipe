@@ -98,13 +98,44 @@
 		background-color: rgba(darken($leaf, 5%), .8);
 		color: $white;
 	}
+	a {
+		color: $white;
+		font-weight: 200;
+	}
 }
 
 /* Current Recipe */
+.current-recipe {
+	.return {
+		color: $dodgerblue;
+		padding: .5rem .7rem;
+		border: 1.5px solid $dodgerblue;
+		border-radius: .3rem;
+	}
 
-.current-recipe__title {
-	font-size: 2rem;
-	color: $tomato;
+	.current-recipe__title {
+		font-size: 3rem;
+		color: $tomato;
+		padding: 1rem 0;
+		text-align: center;
+	}
+
+	.current-recipe__grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.current-recipe__info {
+		padding: 1rem;
+	}
+	.current-recipe__author {
+		font-size: 2.5rem;
+	}
+	.current-recipe__website {
+		font-size: 1.5rem;
+		a {
+			color: $dodgerblue;
+		}
+	}
 }
 
 @media screen and (min-width: 62.5rem) {

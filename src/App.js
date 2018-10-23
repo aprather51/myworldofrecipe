@@ -30,18 +30,20 @@ class App extends Component {
     console.log(this.state.recipes); 
   }
 
-  //fetch a reciepe from local storage and set it up in JSON format inside array
-  componentDidMount = () => {
-    const json = localStorage.getItem('recipes');
-    const recipes = JSON.parse(json);
-    this.setState({ recipes })
-  }
+  //fetch a stored item eg reciepe from local storage and set it up in JSON format inside array
+   componentDidMount = () => {
+     const json = localStorage.getItem('recipes');
+     const recipes = JSON.parse(json);
+     this.setState({ recipes })
+   }
   
-  //update the current recipe in string and store it in localstorage
+  //Set the current recipe items into local storage in string format. This is to store items at local instead of re-request items from API server. 
   componentDidUpdate = () => {
-    const recipes = JSON.stringfy(this.state.recipes);
+    const recipes = JSON.stringify(this.state.recipes);
     localStorage.setItem('recipes', recipes);
   }
+
+  
 
   render() {
     return (

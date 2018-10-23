@@ -30,20 +30,28 @@ export default class Recipe extends Component {
 			<div className="container">
 				{currentRecipe.length !== 0 && (
 					<div className="current-recipe">
+						<Link to="/" className="return">
+							&larr; Return Back
+						</Link>
 						<div className="current-recipe__title">{currentRecipe.title}</div>
-						<img src={currentRecipe.image_url} alt={currentRecipe.title} />
-						<div className="current-recipe__author">
-							By: {currentRecipe.publisher}
+						<div className="current-recipe__grid">
+							<div className="img-wrap">
+								<img src={currentRecipe.image_url} alt={currentRecipe.title} />
+							</div>
+							<div className="current-recipe__info">
+								<div className="current-recipe__author">
+									Publshed By: <strong>{currentRecipe.publisher}</strong>
+								</div>
+								<span className="current-recipe__website">
+									Website:{' '}
+									<strong>
+										<a href={currentRecipe.publisher_url}>
+											{currentRecipe.publisher_url}
+										</a>
+									</strong>
+								</span>
+							</div>
 						</div>
-						<span className="current-recipe__website">
-							Visit
-							<a href={currentRecipe.publisher_url}>
-								{currentRecipe.publisher_url}
-							</a>
-						</span>
-						<button>
-							<Link to="/">Return Back</Link>
-						</button>
 					</div>
 				)}
 			</div>
