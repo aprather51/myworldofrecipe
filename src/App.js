@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 //components
 import SearchForm from './components/SearchForm'
-import Header from './components/Header'
 import RecipeLists from './components/RecipeLists'
 
 //style
@@ -31,10 +30,22 @@ class App extends Component {
     console.log(this.state.recipes); 
   }
 
+  //fetch a reciepe from local storage and set it up in JSON format inside array
+  componentDidMount = () => {
+    const json = localStorage.getItem('recipes');
+    const recipes = JSON.parse(json);
+    this.setState({ recipes })
+  }
+  
+  //update the current recipe in string and store it in localstorage
+  componentDidUpdate = () => {
+    const recipes = JSON.stringfy(this.state.recipes);
+    localStorage.setItem('recipes', recipes);
+  }
+
   render() {
     return (
-      <>
-        <Header />
+      <> 
         <div className="container">
           <SearchForm getRecipe={this.getRecipe} />
           <div className="grid">

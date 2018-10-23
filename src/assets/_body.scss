@@ -44,7 +44,7 @@
 	}
 }
 
-//Box
+/* Recipe Lists */
 .box {
 	position: relative;
 	min-height: 300px;
@@ -98,6 +98,13 @@
 		background-color: rgba(darken($leaf, 5%), .8);
 		color: $white;
 	}
+}
+
+/* Current Recipe */
+
+.current-recipe__title {
+	font-size: 2rem;
+	color: $tomato;
 }
 
 @media screen and (min-width: 62.5rem) {
