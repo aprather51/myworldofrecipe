@@ -6,6 +6,8 @@
 #api_key
 .env
 
+#img
+/img/*.png
 
 # testing
 /coverage
