@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Header'
 import App from '../App';
 import Recipe from './Recipe';
+import Footer from './Footer';
 
 const Router = () => (
   <>
@@ -15,6 +16,7 @@ const Router = () => (
 			<Route path="/recipe/:id" component={Recipe} />
 		</Switch>
 	</BrowserRouter>
+  <Footer />
   </>
 );
 

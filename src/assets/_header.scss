@@ -1,7 +1,19 @@
 header {
 	background-color: $tomato;
 	color: lighten($tomato, 30%);
+	margin-bottom: 2rem;
 	padding: 1rem 0;
 	text-align: center;
-	margin-bottom: 2rem;
+}
+
+.header__grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header__img-wrap {
+	width: 5%;
+	img {
+		opacity: .85;
+	}
 }
