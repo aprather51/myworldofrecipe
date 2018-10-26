@@ -7,7 +7,7 @@
 .env
 
 #img
-/img/*.png
+/src/img
 
 # testing
 /coverage
