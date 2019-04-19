@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/myworldofrecipe/precache-manifest.71efa69e74f6c990cbb8773edbb75170.js"
+  "/myworldofrecipe/precache-manifest.986b59738688eab01e329f72ba7ecded.js"
 );
 
 workbox.clientsClaim();
