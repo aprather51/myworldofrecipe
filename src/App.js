@@ -7,7 +7,7 @@ import RecipeLists from './components/RecipeLists';
 //style
 import './assets/main.scss';
 
-//API_Key
+//API_Key - Register API key - https://www.food2fork.com/about/api and obtain API Keys. Include API_KEY inside .env of root directory.
 const API_KEY = process.env.REACT_APP_RECIPE_API_KEY;
 
 class App extends Component {
