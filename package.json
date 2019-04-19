@@ -2,7 +2,7 @@
 	"name": "my-world-of-recipe",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://aprather.gihub.io/my-world-of-recipe/",
+	"homepage": "https://aprather51.github.io/my-world-of-recipe",
 	"dependencies": {
 		"gh-pages": "^2.0.1",
 		"node-sass": "^4.9.4",
