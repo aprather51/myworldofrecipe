@@ -6,7 +6,6 @@
 #api_key
 .env
 
-
 # testing
 /coverage
 
@@ -23,3 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#note
+NOTE.md
