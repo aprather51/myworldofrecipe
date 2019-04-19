@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RecipeLists = ({ recipes }) =>
+	recipes &&
 	recipes.map(recipe => (
 		<div className="box" key={recipe.recipe_id}>
 			<div className="box__thumbnail">
