@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/my-world-of-recipe/precache-manifest.95408442d5f931830cb84bcb9ad994d9.js"
+  "/myworldofrecipe/precache-manifest.71efa69e74f6c990cbb8773edbb75170.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/my-world-of-recipe/index.html", {
+workbox.routing.registerNavigationRoute("/myworldofrecipe/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

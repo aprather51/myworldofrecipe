@@ -1,13 +1,13 @@
 {
-  "main.css": "/my-world-of-recipe/static/css/main.852ef260.chunk.css",
-  "main.js": "/my-world-of-recipe/static/js/main.b061501a.chunk.js",
-  "main.js.map": "/my-world-of-recipe/static/js/main.b061501a.chunk.js.map",
-  "static/js/1.cad4d167.chunk.js": "/my-world-of-recipe/static/js/1.cad4d167.chunk.js",
-  "static/js/1.cad4d167.chunk.js.map": "/my-world-of-recipe/static/js/1.cad4d167.chunk.js.map",
-  "runtime~main.js": "/my-world-of-recipe/static/js/runtime~main.38d76847.js",
-  "runtime~main.js.map": "/my-world-of-recipe/static/js/runtime~main.38d76847.js.map",
-  "static/css/main.852ef260.chunk.css.map": "/my-world-of-recipe/static/css/main.852ef260.chunk.css.map",
-  "index.html": "/my-world-of-recipe/index.html",
-  "precache-manifest.95408442d5f931830cb84bcb9ad994d9.js": "/my-world-of-recipe/precache-manifest.95408442d5f931830cb84bcb9ad994d9.js",
-  "service-worker.js": "/my-world-of-recipe/service-worker.js"
+  "main.css": "/myworldofrecipe/static/css/main.852ef260.chunk.css",
+  "main.js": "/myworldofrecipe/static/js/main.b87f1fcd.chunk.js",
+  "main.js.map": "/myworldofrecipe/static/js/main.b87f1fcd.chunk.js.map",
+  "static/js/1.cad4d167.chunk.js": "/myworldofrecipe/static/js/1.cad4d167.chunk.js",
+  "static/js/1.cad4d167.chunk.js.map": "/myworldofrecipe/static/js/1.cad4d167.chunk.js.map",
+  "runtime~main.js": "/myworldofrecipe/static/js/runtime~main.d54ccd02.js",
+  "runtime~main.js.map": "/myworldofrecipe/static/js/runtime~main.d54ccd02.js.map",
+  "static/css/main.852ef260.chunk.css.map": "/myworldofrecipe/static/css/main.852ef260.chunk.css.map",
+  "index.html": "/myworldofrecipe/index.html",
+  "precache-manifest.71efa69e74f6c990cbb8773edbb75170.js": "/myworldofrecipe/precache-manifest.71efa69e74f6c990cbb8773edbb75170.js",
+  "service-worker.js": "/myworldofrecipe/service-worker.js"
 }
