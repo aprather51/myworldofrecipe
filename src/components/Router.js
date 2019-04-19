@@ -10,7 +10,7 @@ import Footer from './Footer';
 const Router = () => (
 	<Fragment>
 		<Header />
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Switch>
 				<Route exact path="/" component={App} />
 				<Route path="/recipe/:id" component={Recipe} />
